@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Places Recommendation</title>
+</head>
+
+<body>
+    <h2>Top 5 Places Recommendation</h2>
+    <form action="recommendation.php" method="post">
+        <label for="tourist_class">Select Tourist Class:</label>
+        <select name="tourist_class" id="tourist_class" required>
+            <!-- Populate this dropdown dynamically based on the available classes in your database -->
+            <option value="0">Class 1</option>
+            <option value="1">Class 2</option>
+            <option value="2">Class 3</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br><br>
+        <input type="submit" value="Get Top 5 Places">
+    </form>
+</body>
+
+</html>
